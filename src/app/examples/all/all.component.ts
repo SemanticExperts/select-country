@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import { Country } from "@angular-material-extensions/select-country";
+import { Country } from "@jaguards/select-country";
 import { FormControl, FormGroup, Validators } from "@angular/forms";
 
 @Component({

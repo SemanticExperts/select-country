@@ -262,7 +262,7 @@
         }
       }
     },
-    "@angular-material-extensions/select-country": {
+    "@jaguards/select-country": {
       "projectType": "library",
       "root": "projects/angular-material-extensions/select-country",
       "sourceRoot": "projects/angular-material-extensions/select-country/src",

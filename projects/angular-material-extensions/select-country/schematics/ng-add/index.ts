@@ -7,7 +7,7 @@ import { addPackageJsonDependency, NodeDependency, NodeDependencyType } from '..
 /** Loads the full version from the given Angular package gracefully. */
 function loadPackageVersionGracefully(): string | null {
   try {
-    console.log('@angular-material-extensions/select-country version = ', require(`../../package.json`).version);
+    console.log('@jaguards/select-country version = ', require(`../../package.json`).version);
     return require(`../../package.json`).version;
   } catch {
     return null;
@@ -22,7 +22,7 @@ export function addPackageJsonDependencies(): Rule {
     const dependencies: NodeDependency[] = [
       {
         type: NodeDependencyType.Default, version: loadPackageVersionGracefully()
-          || '4.0.0', name: '@angular-material-extensions/select-country'
+          || '4.0.0', name: '@jaguards/select-country'
       },
       { type: NodeDependencyType.Default, version: '^1.2.7', name: 'svg-country-flags' }
     ];
@@ -62,7 +62,7 @@ export function addModuleToImports(options: any): Rule {
 
     const moduleName = `MatSelectCountryModule`;
 
-    addModuleImportToRootModule(host, moduleName, '@angular-material-extensions/select-country', project);
+    addModuleImportToRootModule(host, moduleName, '@jaguards/select-country', project);
     context.logger.log('info', `✅️ "${moduleName}" is imported`);
     addModuleImportToRootModule(host, 'HttpClientModule', '@angular/common/http', project);
     context.logger.log('info', `✅️ "HttpClientModule" is imported`);
@@ -89,7 +89,7 @@ export function getPackageVersionFromPackageJson(tree: Tree, name: string): stri
 
 function addLibAssetsToAssets(options: any) {
   return (host: Tree, context: SchematicContext) => {
-    const lib = '@angular-material-extensions/select-country';
+    const lib = '@jaguards/select-country';
     const assetPath = 'node_modules/svg-country-flags/svg';
 
     try {

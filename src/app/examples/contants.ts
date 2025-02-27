@@ -1,4 +1,4 @@
-import { Country } from "@angular-material-extensions/select-country";
+import { Country } from "@jaguards/select-country";
 
 export const GERMANY_COUNTRY: Country = {
   name: "Deutschland",

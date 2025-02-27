@@ -1,5 +1,5 @@
 import { Component } from "@angular/core";
-import { Country } from "@angular-material-extensions/select-country";
+import { Country } from "@jaguards/select-country";
 
 @Component({
   selector: "app-minimal",

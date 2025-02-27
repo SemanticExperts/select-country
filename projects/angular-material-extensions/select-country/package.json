@@ -31,10 +31,10 @@
     "url": "https://github.com/angular-material-extensions/select-country/issues"
   },
   "scripts": {
-    "build": "../../../node_modules/.bin/ng build @angular-material-extensions/select-country --configuration=production",
+    "build": "../../../node_modules/.bin/ng build @jaguards/select-country --configuration=production",
     "build:schematics": "../../../node_modules/.bin/tsc -p tsconfig.schematics.json",
     "clean": "rm -rf ../../../dist",
-    "lint": "../../../node_modules/.bin/ng lint @angular-material-extensions/select-country",
+    "lint": "../../../node_modules/.bin/ng lint @jaguards/select-country",
     "resync:schematics": "rsync -a schematics/collection.json ../../../dist/angular-material-extensions/select-country/schematics/",
     "resync:readme": "rsync -a ../../../README.md ../../../dist/angular-material-extensions/select-country/",
     "postbuild": "npm run build:schematics && npm run resync:readme && npm run resync:schematics",
@@ -43,7 +43,7 @@
     "release:minor": "../../../node_modules/.bin/release-it --minor --ci",
     "release:major": "../../../node_modules/.bin/release-it --major --ci --no-git.requireCleanWorkingDir",
     "release:version": "../../../node_modules/.bin/release-it 17.0.0 --ci --no-git.requireCleanWorkingDir",
-    "ng:test": "../../../node_modules/.bin/ng test @angular-material-extensions/select-country",
+    "ng:test": "../../../node_modules/.bin/ng test @jaguards/select-country",
     "test": "../../../node_modules/.bin/jest --coverage",
     "test:watch": "../../../node_modules/.bin/jest --coverage --watch"
   },

@@ -15,11 +15,11 @@
     "types": ["jest", "tslib"],
     "lib": ["es2018", "dom"],
     "paths": {
-      "@angular-material-extensions/select-country": [
+      "@jaguards/select-country": [
         "dist/angular-material-extensions/select-country/*",
         "dist/angular-material-extensions/select-country"
       ],
-      "@angular-material-extensions/select-country/*": [
+      "@jaguards/select-country/*": [
         "libs/angular-material-extensions/select-country/*",
         "libs/angular-material-extensions/select-country"
       ]

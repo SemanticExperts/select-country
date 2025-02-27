@@ -1,7 +1,7 @@
 import {Component, OnInit} from "@angular/core";
 import {FormControl, UntypedFormBuilder, UntypedFormControl, UntypedFormGroup, Validators,} from "@angular/forms";
 
-import {Country} from "@angular-material-extensions/select-country";
+import {Country} from "@jaguards/select-country";
 import {Angulartics2GoogleAnalytics} from 'angulartics2';
 import {GERMANY_COUNTRY} from "./examples/contants";
 
