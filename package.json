@@ -8,7 +8,6 @@
     "build:lib": "ng build @jaguards/select-country",
     "build:lib:watch": "ng build @jaguards/select-country --watch",
     "build:prod": "ng build --prod",
-    "build:prod:ghpages": "ng build --preserve-symlinks --prod --aot --build-optimizer --base-href /select-country/ --deploy-url /select-country/",
     "deploy": "ng deploy --base-href=/select-country/ --no-build",
     "test": "jest",
     "lint": "ng lint",
