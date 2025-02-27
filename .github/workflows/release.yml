@@ -71,8 +71,8 @@ jobs:
             echo "Dry run: skip git push"
             GIT_DRY_RUN_OPTION="--dry-run"
           fi
-          git add $GIT_DRY_RUN_OPTION package.json || true
-          git add $GIT_DRY_RUN_OPTION package-lock.json || true
+          git add $GIT_DRY_RUN_OPTION projects/angular-material-extensions/select-country/package.json || true
+          git add $GIT_DRY_RUN_OPTION projects/angular-material-extensions/select-country/package-lock.json || true
           git commit -m "Update version to ${{ env.VERSION_NUMBER }}" || true
           git push $GIT_DRY_RUN_OPTION origin HEAD:$BRANCH_NAME || true
           git tag -fa $VERSION_NUMBER -m "Update version to $VERSION_NUMBER" || true
