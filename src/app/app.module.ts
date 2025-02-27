@@ -42,7 +42,7 @@ import {MatButtonModule} from '@angular/material/button';
     MatSelectModule,
     Angulartics2Module.forRoot(),
     MarkdownModule.forRoot(),
-    MatSelectCountryModule.forRoot('de'),
+    MatSelectCountryModule.forRoot('fr'),
     MatInputModule,
     MatCheckboxModule,
     MatSliderModule,
