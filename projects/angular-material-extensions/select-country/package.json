@@ -7,9 +7,19 @@
     "name": "anthonynahas",
     "url": "https://github.com/anthonynahas"
   },
+  "contributors": [
+    {
+      "name": "Legall Brandon",
+      "url": "https://github.com/brandonfl"
+    },
+    {
+      "name": "Yury Silvestrov-Henocq",
+      "url": "https://github.com/yursilv"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/angular-material-extensions/select-country.git"
+    "url": "https://github.com/SemanticExperts/select-country.git"
   },
   "license": "MIT",
   "schematics": "./schematics/collection.json",
