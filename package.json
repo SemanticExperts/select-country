@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --port 4901",
+    "start": "npm run build:lib && ng serve --port 4901",
     "build": "ng build",
     "build:lib": "ng build @jaguards/select-country",
     "build:lib:watch": "ng build @jaguards/select-country --watch",
