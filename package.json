@@ -13,8 +13,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "release": "release-it",
-    "test:watch": "jest --watch",
-    "postinstall": "ngcc"
+    "test:watch": "jest --watch"
   },
   "private": true,
   "dependencies": {
