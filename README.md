@@ -6,7 +6,7 @@
 
 # @jaguards/select-country - Angular Material component that allow users to select a country or nationality with an autocomplete feature
 
-[![npm version](https://badge.fury.io/js/%40jaguards%2Fselect-country.svg)](https://badge.fury.io/js/%40angular-material-extensions%2Fselect-country)
+[![npm version](https://badge.fury.io/js/%40jaguards%2Fselect-country.svg)](https://www.npmjs.com/package/@jaguards/select-country)
 [![npm demo](https://img.shields.io/badge/demo-online-ed1c46.svg)](https://angular-material-extensions.github.io/select-country)
 [![docs: typedoc](https://img.shields.io/badge/docs-typedoc-4D0080.svg)](https://angular-material-extensions.github.io/select-country/doc/index.html)
 [![Join the chat at https://gitter.im/angular-material-extensions/Lobby](https://badges.gitter.im/angular-material-extensions/Lobby.svg)](https://gitter.im/angular-material-extensions/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
