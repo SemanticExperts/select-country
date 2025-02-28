@@ -1,5 +1,5 @@
 import {NgModule} from '@angular/core';
-import {HttpClientModule} from '@angular/common/http';
+import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {MatSelectModule} from '@angular/material/select';
 import {BrowserModule} from '@angular/platform-browser';
@@ -32,11 +32,8 @@ import {MatButtonModule} from '@angular/material/button';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-
     FormsModule,
     ReactiveFormsModule,
-
-    HttpClientModule,
     AppRoutingModule,
     FlexModule,
     MatSelectModule,
@@ -46,9 +43,9 @@ import {MatButtonModule} from '@angular/material/button';
     MatInputModule,
     MatCheckboxModule,
     MatSliderModule,
-    MatButtonModule,
+    MatButtonModule
   ],
-  providers: [],
+  providers: [provideHttpClient(withInterceptorsFromDi())],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
