@@ -62,6 +62,10 @@ jobs:
         shell: bash
         run: npm run build:lib
 
+      - name: Copy readme to dist
+        shell: bash
+        run: cp README.md dist/angular-material-extensions/select-country/README.md
+
       - name: Update git with the new version
         shell: bash
         continue-on-error: true
