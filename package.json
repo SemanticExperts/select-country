@@ -32,14 +32,14 @@
     "@briebug/jest-schematic": "^2.2.0",
     "angulartics2": "^12.2.1",
     "express": "^4.15.2",
-    "ngx-markdown": "^18.1.0",
+    "ngx-markdown": "^19.1.0",
     "rxjs": "^7.5.1",
     "svg-country-flags": "^1.2.10",
     "tslib": "^2.4.1",
     "zone.js": "~0.14.2"
   },
   "devDependencies": {
-    "@angular-builders/jest": "^18.0.0",
+    "@angular-builders/jest": "^19.0.0",
     "@angular-devkit/build-angular": "^18.2.14",
     "@angular-devkit/schematics": "^18.2.14",
     "@angular/cli": "^18.2.14",
