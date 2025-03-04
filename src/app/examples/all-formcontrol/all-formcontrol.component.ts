@@ -4,9 +4,10 @@ import { FormControl, FormGroup, Validators } from "@angular/forms";
 import { GERMANY_COUNTRY } from "../contants";
 
 @Component({
-  selector: "app-all-formcontrol",
-  templateUrl: "./all-formcontrol.component.html",
-  styleUrls: ["./all-formcontrol.component.scss"],
+    selector: "app-all-formcontrol",
+    templateUrl: "./all-formcontrol.component.html",
+    styleUrls: ["./all-formcontrol.component.scss"],
+    standalone: false
 })
 export class AllFormControlComponent implements OnInit {
   selectablecountries: Country[] = [

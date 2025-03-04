@@ -81,18 +81,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "select-country:build"
+            "buildTarget": "select-country:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "select-country:build:production"
+              "buildTarget": "select-country:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "select-country:build"
+            "buildTarget": "select-country:build"
           }
         },
         "test": {
