@@ -4,9 +4,10 @@ import { GERMANY_COUNTRY } from "../contants";
 import { FormControl, FormGroup, Validators } from "@angular/forms";
 
 @Component({
-  selector: "app-default",
-  templateUrl: "./default.component.html",
-  styleUrls: ["./default.component.scss"],
+    selector: "app-default",
+    templateUrl: "./default.component.html",
+    styleUrls: ["./default.component.scss"],
+    standalone: false
 })
 export class DefaultComponent implements OnInit {
   defaultCountry: Country = { ...GERMANY_COUNTRY };

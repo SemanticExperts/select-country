@@ -48,16 +48,17 @@ type CountryOptionalMandatoryAlpha2Code = CustomOptional<
  * @version 2.1.0
  */
 @Component({
-  selector: "mat-select-country",
-  templateUrl: "mat-select-country.component.html",
-  styleUrls: ["mat-select-country.component.scss"],
-  providers: [
-    {
-      provide: NG_VALUE_ACCESSOR,
-      useExisting: forwardRef(() => MatSelectCountryComponent),
-      multi: true,
-    },
-  ],
+    selector: "mat-select-country",
+    templateUrl: "mat-select-country.component.html",
+    styleUrls: ["mat-select-country.component.scss"],
+    providers: [
+        {
+            provide: NG_VALUE_ACCESSOR,
+            useExisting: forwardRef(() => MatSelectCountryComponent),
+            multi: true,
+        },
+    ],
+    standalone: false
 })
 export class MatSelectCountryComponent
   implements OnInit, OnChanges, ControlValueAccessor

@@ -1,7 +1,7 @@
 {
   "name": "@jaguards/select-country",
   "description": "Angular Material component that allow users to select a country or nationality",
-  "version": "18.2.13",
+  "version": "19.2.0",
   "homepage": "https://angular-material-extensions.github.io/select-country",
   "author": {
     "name": "anthonynahas",
@@ -51,19 +51,19 @@
     "release:patch": "../../../node_modules/.bin/release-it --patch --ci ",
     "release:minor": "../../../node_modules/.bin/release-it --minor --ci",
     "release:major": "../../../node_modules/.bin/release-it --major --ci --no-git.requireCleanWorkingDir",
-    "release:version": "../../../node_modules/.bin/release-it 18.2.13 --ci --no-git.requireCleanWorkingDir",
+    "release:version": "../../../node_modules/.bin/release-it 19.2.0 --ci --no-git.requireCleanWorkingDir",
     "ng:test": "../../../node_modules/.bin/ng test @jaguards/select-country",
     "test": "../../../node_modules/.bin/jest --coverage",
     "test:watch": "../../../node_modules/.bin/jest --coverage --watch"
   },
   "peerDependencies": {
-    "@angular/common": "^18.x",
-    "@angular/core": "^18.x",
-    "@angular/forms": "^18.x",
-    "@angular/platform-browser": "^18.x",
-    "@angular/cdk": "~18.x",
-    "@angular/material": "~18.x",
-    "rxjs": "^7.x"
+    "@angular/common": "^19.2.0",
+    "@angular/core": "^19.2.0",
+    "@angular/forms": "^19.2.0",
+    "@angular/platform-browser": "^19.2.0",
+    "@angular/cdk": "~19.2.1",
+    "@angular/material": "~19.2.1",
+    "rxjs": "^7.5.1"
   },
   "engines": {
     "node": ">=16"

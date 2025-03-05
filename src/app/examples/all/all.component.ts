@@ -3,9 +3,10 @@ import { Country } from "@jaguards/select-country";
 import { FormControl, FormGroup, Validators } from "@angular/forms";
 
 @Component({
-  selector: "app-all",
-  templateUrl: "./all.component.html",
-  styleUrls: ["./all.component.scss"],
+    selector: "app-all",
+    templateUrl: "./all.component.html",
+    styleUrls: ["./all.component.scss"],
+    standalone: false
 })
 export class AllComponent implements OnInit {
   selectablecountries: Country[] = [
